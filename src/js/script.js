@@ -33,6 +33,8 @@ console.log(typeof ex4)
 let ex5 = []
 console.log(typeof ex5)
 
+/////////////////////////////////////////////////////////////
+
 //CONVERSÕES
 
 //FLOAT => STRING
@@ -54,3 +56,23 @@ console.log(numInt.toString())
 
 let numString2 = "120"
 console.log(parseInt(numString2))
+
+/////////////////////////////////////////////////////////////
+
+//METODOS
+
+//METODO LENGHT - VERIFICA O TAMANHO DA STRING
+let frase ="O mundo da Tecnologia";
+console.log(frase.length)
+
+//METODO indexof/lastindexoff - RETORNA U TRCHO DO SEU CODIGO
+let texto = "Programação Sustentavel";
+console.log(texto.indexOf("ão"))
+
+//METODO slice - RETORNA PARTE DE UM TEXTO PASSANDO INICIO E O FINAL
+let info = "Programação de ponta";
+console.log(info.slice(2,6))
+
+//OPERADORES ARITIMÉTICOS 
+
+
